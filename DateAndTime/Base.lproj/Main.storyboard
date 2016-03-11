@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXL-8v-JT6">
+                                <rect key="frame" x="145" y="183" width="85" height="35"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="26"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zos-CC-JJj">
+                                <rect key="frame" x="127" y="89" width="121" height="57"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="50"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6m-t8-HpK">
+                                <rect key="frame" x="172" y="236" width="31" height="29"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="25"/>
+                                <color key="textColor" red="0.63348327020202022" green="0.63348327020202022" blue="0.63348327020202022" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loc-Zn-Hlp">
+                                <rect key="frame" x="159" y="434" width="58" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Paris"/>
+                                <connections>
+                                    <action selector="parisButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iqx-Cw-hF5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL4-ug-C2m">
+                                <rect key="frame" x="152" y="471" width="72" height="35"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Moscow"/>
+                                <connections>
+                                    <action selector="moscowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TR6-bB-urT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hed-L4-591">
+                                <rect key="frame" x="136" y="504" width="103" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Hong Kong"/>
+                                <connections>
+                                    <action selector="hongKongButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZJ-W3-8cu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glv-ZX-WcK">
+                                <rect key="frame" x="142" y="539" width="92" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Honolulu"/>
+                                <connections>
+                                    <action selector="honoluluButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wPW-w4-iIo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07G-4v-AyO">
+                                <rect key="frame" x="148" y="574" width="80" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Seattle"/>
+                                <connections>
+                                    <action selector="seattleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ua6-Rq-JQV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ3-7F-iW5">
+                                <rect key="frame" x="113" y="398" width="149" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="New York City"/>
+                                <connections>
+                                    <action selector="newYorkCityButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXh-on-1Hq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="glv-ZX-WcK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2OT-nj-sNW"/>
+                            <constraint firstItem="Zos-CC-JJj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4bL-vo-wtB"/>
+                            <constraint firstItem="AL4-ug-C2m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ALg-Ry-Vmt"/>
+                            <constraint firstItem="IJ3-7F-iW5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="Ad0-fN-0ND"/>
+                            <constraint firstItem="loc-Zn-Hlp" firstAttribute="top" secondItem="IJ3-7F-iW5" secondAttribute="bottom" constant="5" id="CdN-hY-rbD"/>
+                            <constraint firstItem="q6m-t8-HpK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="I7I-mx-vbd"/>
+                            <constraint firstItem="glv-ZX-WcK" firstAttribute="top" secondItem="IJ3-7F-iW5" secondAttribute="bottom" constant="110" id="N7L-Bq-5xB"/>
+                            <constraint firstItem="hed-L4-591" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T3m-0J-gT0"/>
+                            <constraint firstItem="IJ3-7F-iW5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TrT-hd-gtR"/>
+                            <constraint firstItem="hed-L4-591" firstAttribute="top" secondItem="IJ3-7F-iW5" secondAttribute="bottom" constant="75" id="Vmn-2n-TdK"/>
+                            <constraint firstItem="UXL-8v-JT6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.6" id="WND-3Q-xt2"/>
+                            <constraint firstItem="Zos-CC-JJj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.35" id="cC1-kp-NNZ"/>
+                            <constraint firstItem="UXL-8v-JT6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cmw-bQ-8te"/>
+                            <constraint firstItem="07G-4v-AyO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dHI-lP-27u"/>
+                            <constraint firstItem="q6m-t8-HpK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eg1-cI-iDo"/>
+                            <constraint firstItem="AL4-ug-C2m" firstAttribute="top" secondItem="IJ3-7F-iW5" secondAttribute="bottom" constant="40" id="g4y-oJ-eOQ"/>
+                            <constraint firstItem="07G-4v-AyO" firstAttribute="top" secondItem="IJ3-7F-iW5" secondAttribute="bottom" constant="145" id="hTn-dD-0J3"/>
+                            <constraint firstItem="loc-Zn-Hlp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xO7-WM-rMj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="NYCLabel" destination="IJ3-7F-iW5" id="y36-ZE-A8b"/>
+                        <outlet property="dateLabel" destination="UXL-8v-JT6" id="0er-bj-Gjj"/>
+                        <outlet property="hongKongLabel" destination="hed-L4-591" id="qps-rE-p5h"/>
+                        <outlet property="honoluluLabel" destination="glv-ZX-WcK" id="XfC-2K-7GA"/>
+                        <outlet property="moscowLabel" destination="AL4-ug-C2m" id="buP-gW-g7i"/>
+                        <outlet property="parisLabel" destination="loc-Zn-Hlp" id="2cX-PX-gfK"/>
+                        <outlet property="seattleLabel" destination="07G-4v-AyO" id="5Pf-MJ-eo7"/>
+                        <outlet property="timeLabel" destination="Zos-CC-JJj" id="s8o-Au-X5s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="321.5"/>
+        </scene>
+    </scenes>
+</document>
