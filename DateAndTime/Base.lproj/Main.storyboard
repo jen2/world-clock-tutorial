@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,77 +18,77 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXL-8v-JT6">
-                                <rect key="frame" x="145" y="183" width="85" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXL-8v-JT6">
+                                <rect key="frame" x="129" y="157.5" width="62.5" height="26"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="26"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zos-CC-JJj">
-                                <rect key="frame" x="127" y="89" width="121" height="57"/>
+                                <rect key="frame" x="99.5" y="71" width="121" height="57"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="50"/>
-                                <color key="textColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6m-t8-HpK">
-                                <rect key="frame" x="172" y="236" width="31" height="29"/>
+                                <rect key="frame" x="144.5" y="198.5" width="31" height="29"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="25"/>
-                                <color key="textColor" red="0.63348327020202022" green="0.63348327020202022" blue="0.63348327020202022" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.63348327020202022" green="0.63348327020202022" blue="0.63348327020202022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loc-Zn-Hlp">
-                                <rect key="frame" x="159" y="434" width="58" height="31"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
-                                <state key="normal" title="Paris"/>
-                                <connections>
-                                    <action selector="parisButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iqx-Cw-hF5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL4-ug-C2m">
-                                <rect key="frame" x="152" y="471" width="72" height="35"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
-                                <state key="normal" title="Moscow"/>
-                                <connections>
-                                    <action selector="moscowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TR6-bB-urT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hed-L4-591">
-                                <rect key="frame" x="136" y="504" width="103" height="31"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
-                                <state key="normal" title="Hong Kong"/>
-                                <connections>
-                                    <action selector="hongKongButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZJ-W3-8cu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glv-ZX-WcK">
-                                <rect key="frame" x="142" y="539" width="92" height="31"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
-                                <state key="normal" title="Honolulu"/>
-                                <connections>
-                                    <action selector="honoluluButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wPW-w4-iIo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07G-4v-AyO">
-                                <rect key="frame" x="148" y="574" width="80" height="31"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
-                                <state key="normal" title="Seattle"/>
-                                <connections>
-                                    <action selector="seattleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ua6-Rq-JQV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ3-7F-iW5">
-                                <rect key="frame" x="113" y="398" width="149" height="31"/>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ3-7F-iW5" userLabel="NYC">
+                                <rect key="frame" x="85" y="348" width="149" height="31"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
                                 <state key="normal" title="New York City"/>
                                 <connections>
-                                    <action selector="newYorkCityButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXh-on-1Hq"/>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W52-Al-LLd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loc-Zn-Hlp">
+                                <rect key="frame" x="131" y="384.5" width="58" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Paris"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oB3-rH-64x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL4-ug-C2m">
+                                <rect key="frame" x="125.5" y="419.5" width="69" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Moscow"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1YT-z2-gvd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hed-L4-591">
+                                <rect key="frame" x="108.5" y="454.5" width="103" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Hong Kong"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSB-19-tqa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glv-ZX-WcK">
+                                <rect key="frame" x="114" y="489.5" width="92" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Honolulu"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ao-Hf-1r1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07G-4v-AyO">
+                                <rect key="frame" x="120" y="524.5" width="80" height="31"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="19"/>
+                                <state key="normal" title="Seattle"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6BL-Fh-eiA"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="glv-ZX-WcK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2OT-nj-sNW"/>
                             <constraint firstItem="Zos-CC-JJj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4bL-vo-wtB"/>
@@ -106,15 +110,14 @@
                             <constraint firstItem="loc-Zn-Hlp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xO7-WM-rMj"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="NYCLabel" destination="IJ3-7F-iW5" id="y36-ZE-A8b"/>
                         <outlet property="dateLabel" destination="UXL-8v-JT6" id="0er-bj-Gjj"/>
-                        <outlet property="hongKongLabel" destination="hed-L4-591" id="qps-rE-p5h"/>
-                        <outlet property="honoluluLabel" destination="glv-ZX-WcK" id="XfC-2K-7GA"/>
-                        <outlet property="moscowLabel" destination="AL4-ug-C2m" id="buP-gW-g7i"/>
-                        <outlet property="parisLabel" destination="loc-Zn-Hlp" id="2cX-PX-gfK"/>
-                        <outlet property="seattleLabel" destination="07G-4v-AyO" id="5Pf-MJ-eo7"/>
+                        <outlet property="hongKong" destination="hed-L4-591" id="1Dw-X1-m3S"/>
+                        <outlet property="honolulu" destination="glv-ZX-WcK" id="OMR-Oi-OW2"/>
+                        <outlet property="moscow" destination="AL4-ug-C2m" id="Mrz-qM-45J"/>
+                        <outlet property="nyc" destination="IJ3-7F-iW5" id="SHd-yL-yY9"/>
+                        <outlet property="paris" destination="loc-Zn-Hlp" id="ELe-cC-56j"/>
+                        <outlet property="seattle" destination="07G-4v-AyO" id="b6O-53-y5w"/>
                         <outlet property="timeLabel" destination="Zos-CC-JJj" id="s8o-Au-X5s"/>
                     </connections>
                 </viewController>
