@@ -29,7 +29,7 @@
     - (void)viewDidLoad {
         [super viewDidLoad];
         [self.nyc sendActionsForControlEvents: UIControlEventTouchUpInside];
-        [self highlightSelected]; ///
+        [self highlightSelected];
     }
 
     -(IBAction)cityButtonTapped:(UIButton *)sender {
@@ -76,8 +76,8 @@
         [self.timer invalidate];
         self.timer = nil;
         
-        [self highlightSelected];///
-        [self unhighlightDeselected];/////
+        [self highlightSelected];
+        [self unhighlightDeselected];
         
         [self setDateTimeLabelsWithTimeZone];
         self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(setDateTimeLabelsWithTimeZone) userInfo:nil repeats:YES];
@@ -109,13 +109,12 @@
          return formattedDateAndTime;
      }
 
-
-    - (void)highlightSelected { /////
+    - (void)highlightSelected {
         self.selectedButton.tintColor = [UIColor yellowColor];
     }
 
-    -(void)unhighlightDeselected { /////
-        NSMutableArray *cities = [@[self.nyc, self.paris, self.moscow, self.hongKong, self.honolulu, self.seattle]mutableCopy];
+    -(void)unhighlightDeselected {
+        NSArray *cities = [@[self.nyc, self.paris, self.moscow, self.hongKong, self.honolulu, self.seattle]mutableCopy];
         NSMutableArray *unselectedCities = [NSMutableArray array];
         
         for (UIButton *city in cities) {
